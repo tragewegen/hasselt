@@ -1,2 +1,0 @@
-# hasselt
-GitHub Pages
