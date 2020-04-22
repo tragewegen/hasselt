@@ -1237,7 +1237,7 @@ section.lazy-placeholder:after {
 .cid-rQhvH5k8eU {
   background: #ffffff;
   padding-top: 0px;
-  padding-bottom: 60px;
+  padding-bottom: 45px;
 }
 .cid-rQhvH5k8eU .image-block {
   margin: auto;
@@ -1254,6 +1254,21 @@ section.lazy-placeholder:after {
   .cid-rQhvH5k8eU .image-block {
     width: 100% !important;
   }
+}
+.cid-rWU3YrhEMX {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rWU3YrhEMX .mbr-text,
+.cid-rWU3YrhEMX blockquote {
+  color: #767676;
+}
+.cid-rWU3YrhEMX .mbr-text P {
+  text-align: left;
+}
+.cid-rWU3YrhEMX .mbr-text {
+  color: #767676;
 }
 .cid-rQebAdBGIQ {
   padding-top: 30px;
