@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TRAGE WEGEN HASSELT",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -100,7 +100,7 @@
             }
           },
           "_name": "features2",
-          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/inv-1.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Zonder Coderen\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise is een makkelijk websitebouwer: u moet alleen maar elementen op uw pagina neer zetten, inhoud toe voegen en vorm te geven zoals u wilt. <a href=\"https://mobirise.co\">Leer meer...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/inv-2.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box \">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobiel-vriendelijk\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Alle sites die u met Mobirise maakt, zijn mobielvriendelijk. U hoeft geen speciale mobiele versie van uw site te maken. <a href=\"https://mobirise.co\">Leer meer...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/inv-3.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Unieke vormgeving\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise biedt talloze site-blocks in verschillende thema's, en toch zijn deze kant-en-klaar blocks ook verbazend flexibel. <a href=\"https://mobirise.co\">Leer meer...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/background4.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Onbeperkt aantal sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise laat u toe om een onbeperkt aantal sites te bouwen daar het een desktop-app is. <a href=\"https://mobirise.co\">Leer meer...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/deelgemeenten-hokjes-nr-update-25.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Zonder Coderen\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise is een makkelijk websitebouwer: u moet alleen maar elementen op uw pagina neer zetten, inhoud toe voegen en vorm te geven zoals u wilt. <a href=\"https://mobirise.co\">Leer meer...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/inv-1.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box \">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobiel-vriendelijk\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Alle sites die u met Mobirise maakt, zijn mobielvriendelijk. U hoeft geen speciale mobiele versie van uw site te maken. <a href=\"https://mobirise.co\">Leer meer...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/inv-2.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Unieke vormgeving\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise biedt talloze site-blocks in verschillende thema's, en toch zijn deze kant-en-klaar blocks ook verbazend flexibel. <a href=\"https://mobirise.co\">Leer meer...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/inv-3.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Onbeperkt aantal sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise laat u toe om een onbeperkt aantal sites te bouwen daar het een desktop-app is. <a href=\"https://mobirise.co\">Leer meer...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rQmQMGRh2Z",
           "_anchor": "features2-2z",
           "_protectedParams": [],
@@ -562,209 +562,23 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            ".mbr-text P": {
+              "text-align": "left"
             },
-            "& when (@noSpacing)": {
-              ".row": {
-                "margin-left": "0",
-                "margin-right": "0"
-              },
-              ".item": {
-                "padding-left": "0",
-                "padding-right": "0"
-              }
-            },
-            "& when not (@noSpacing)": {
-              ".item": {
-                "padding-bottom": "2rem"
-              }
-            },
-            "& when (@autoSize)": {
-              ".item-wrapper": {
-                "height": "100%",
-                "img": {
-                  "height": "100%",
-                  "object-fit": "cover"
-                }
-              }
-            },
-            ".carousel-control, .close": {
-              "background": "#1b1b1b"
-            },
-            ".carousel-control-prev": {
-              "margin-left": "2.5rem"
-            },
-            ".carousel-control-next": {
-              "margin-right": "2.5rem"
-            },
-            ".close": {
-              "position": "fixed",
-              "opacity": ".5",
-              "font-size": "35px",
-              "font-weight": "300",
-              "width": "70px",
-              "height": "70px",
-              "border-radius": "50%",
-              "color": "#fff",
-              "top": "2.5rem",
-              "right": "2.5rem",
-              "line-height": "70px",
-              "border": "none",
-              "text-align": "center",
-              "text-shadow": "none",
-              "z-index": "5",
-              "-webkit-transition": "opacity .3s ease",
-              "-moz-transition": "opacity .3s ease",
-              "-o-transition": "opacity .3s ease",
-              "transition": "opacity .3s ease",
-              "font-family": "'MobiriseIcons'",
-              "&::before": {
-                "content": "'\\e91a'"
-              },
-              "&:hover": {
-                "opacity": "1",
-                "background": "#000",
-                "color": "#fff"
-              }
-            },
-            ".carousel-control": {
-              "position": "fixed",
-              "width": "70px",
-              "height": "70px",
-              "top": "50%",
-              "margin-top": "-35px",
-              "line-height": "70px",
-              "border-radius": "50%",
-              "font-size": "35px",
-              "border": "0",
-              "opacity": ".5",
-              "text-shadow": "none",
-              "z-index": "5",
-              "color": "#fff",
-              "-webkit-transition": "all 0.2s ease-in-out 0s",
-              "-o-transition": "all 0.2s ease-in-out 0s",
-              "transition": "all 0.2s ease-in-out 0s"
-            },
-            ".carousel-inner > .active": {
-              "display": "block"
-            },
-            ".carousel-control.left": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".carousel-control.right": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".carousel-control .icon-next, .carousel-control .icon-prev": {
-              "margin-top": "-18px",
-              "font-size": "40px",
-              "line-height": "27px"
-            },
-            ".carousel-control:hover": {
-              "background": "#1b1b1b",
-              "color": "#fff",
-              "opacity": "1"
-            },
-            "@media (max-width: 768px)": {
-              ".carousel-control, .carousel-indicators, .modal .close": {
-                "position": "fixed"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".mbr-slider .carousel-control": {
-                "top": "auto",
-                "bottom": "20px"
-              },
-              ".mbr-slider > .container .carousel-control": {
-                "margin-bottom": "0"
-              }
-            },
-            ".carousel-indicators": {
-              "bottom": "0",
-              "margin-bottom": "3px",
-              "@media (max-width: 991px)": {
-                "margin-bottom": "3.625rem !important",
-                "padding-left": "2.5rem",
-                "padding-right": "2.5rem"
-              },
-              "@media (max-width: 767px)": {
-                "display": "none"
-              }
-            },
-            ".carousel-indicators .active, .carousel-indicators li": {
-              "width": "7px",
-              "height": "7px",
-              "margin": "3px",
-              "background": "#1b1b1b",
-              "opacity": ".5",
-              "border": "4px solid #1b1b1b"
-            },
-            ".carousel-indicators .active": {
-              "background": "#fff"
-            },
-            ".carousel-indicators li": {
-              "max-width": "15px",
-              "max-height": "15px",
-              "border-radius": "50%"
-            },
-            ".modal": {
-              "padding-left": "0 !important",
-              "position": "fixed",
-              "overflow": "hidden",
-              "padding-right": "0 !important"
-            },
-            ".modal-dialog": {
-              "margin": "0 auto",
-              "max-width": "100%",
-              "padding-left": "1rem",
-              "padding-right": "1rem"
-            },
-            ".modal-content": {
-              "border-radius": "0",
-              "border": "none",
-              "background": "transparent"
-            },
-            ".modal-body": {
-              "padding": "0",
-              "display": "flex",
-              "align-items": "center",
-              "img": {
-                "width": "100%",
-                "object-fit": "contain",
-                "max-height": "calc(100vh - 1.75rem)",
-                "height": "fit-content"
-              }
-            },
-            ".carousel": {
-              "width": "100%"
-            },
-            ".modal-backdrop.in": {
-              "opacity": ".8"
-            },
-            ".modal.fade .modal-dialog": {
-              "-webkit-transition": "margin-top 0.3s ease-out",
-              "-moz-transition": "margin-top 0.3s ease-out",
-              "-o-transition": "margin-top 0.3s ease-out",
-              "transition": "margin-top 0.3s ease-out"
-            },
-            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
-              "-webkit-transform": "none",
-              "-ms-transform": "none",
-              "-o-transform": "none",
-              "transform": "none"
+            ".mbr-text": {
+              "color": "#767676"
             }
           },
-          "_name": "gallery5",
-          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\">\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\">\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\">\n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            Galerij\n        </h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            Enter Gallery Subtitle here.\n        </h4>\n        <div class=\"row mbr-gallery\" data-toggle=\"modal\" data-target=\"#{{idGallery}}Modal\">\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/tragewegen-201908-ingedelee-199.jpg\" alt=\"\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\" title=\"\">\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/tragewegen-201908-ingedelee-122.jpg\" alt=\"\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\" title=\"\">\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/tragewegen-201908-ingedelee-131.jpg\" alt=\"\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\" title=\"\">\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/tragewegen-201908-ingedelee-125.jpg\" alt=\"\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\" title=\"\">\n                </div>\n            </div>\n            \n        </div>\n\n        <div class=\"modal mbr-slider fade\" id=\"{{idGallery}}Modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" data-ride=\"carousel\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/background1.jpg\" alt=\"\">\n                                </div>\n                                <div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/background2.jpg\" alt=\"\">\n                                </div>\n                                <div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"false\" alt=\"\">\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/background3.jpg\" alt=\"\">\n                                </div>\n                                \n                            </div>\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" class=\"active\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\"></li>\n                                \n                            </ol>\n                            <a role=\"button\" href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\">\n                                <span class=\"mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Vorige</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\">\n                                <span class=\"mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Volgende</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "gallery5-3g",
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1.1rem;\"><b>VISIEVORMING</b></span></p><p><span style=\"font-size: 1.1rem;\">Dankzij de hulp van vele inventariseerders is wijk per wijk de </span><b style=\"font-size: 1.1rem;\">toestand van de trage wegen</b><span style=\"font-size: 1.1rem;\"> op het grondgebied van Hasselt ondertussen in kaart gebracht. De inventaris vormt in een volgende fase de basis voor een proces van <b>visievorming</b> waarbij we onderzoeken op welke manier het netwerk naar de toekomst toe verder uitgebouwd en versterkt kan worden. Zo wordt o.a. duidelijk welke verbindingen belangrijk zijn, welke wegen toe zijn aan een herwaardering of herinrichting en welke de ontbrekende schakels zijn.&nbsp;</span><br></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-3h",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "svpejSO4BB",
+          "_cid": "svpev6KB5H",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -821,33 +635,6 @@
           "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Gestijlde tellers\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Tellerkleur\" name=\"counterColor\" value=\"#8981d3\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Gestijlde tellers\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Markering\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Tellersoort\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Vulling cirkel</option>\n            <option value=\"circle\">Cirkel</option>\n            <option value=\"square\">Vierkant</option>\n        </select>   \n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul><li><b>Op het grondgebied van&nbsp;</b></li><li><b>RESERVEER 1 OF MEERDERE HOKJES</b> - Hieronder vind je een kaart van het grondgebied van Hasselt, opgedeeld in hokjes van 1 km². Vul hieronder het formulier in&nbsp;met je naam, email en de nummers van de hokjes die je wil inventariseren. We sturen je vervolgens de overeenkomstige detailkaarten door die je kan afdrukken als hulpmiddel. Let op: De rode hokjes zijn al gereserveerd en niet meer beschikbaar!</li>\n                    <li><b>GA OP PAD</b> - We wensen je veel wandel- en fietsplezier! Bij vragen kan je steeds bij ons terecht via de contactgegevens onderaan deze pagina (algemene vragen: stad Hasselt; specifieke vragen bv. over de app: Trage Wegen).</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rV0oBivDqC",
           "_anchor": "content12-34",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
-            },
-            ".mbr-text P": {
-              "text-align": "left"
-            },
-            ".mbr-text": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1.1rem;\"><b>VISIEVORMING</b></span></p><p><span style=\"font-size: 1.1rem;\">Dankzij de hulp van vele inventariseerders is wijk per wijk de </span><b style=\"font-size: 1.1rem;\">toestand van de trage wegen</b><span style=\"font-size: 1.1rem;\"> op het grondgebied van Hasselt ondertussen in kaart gebracht. De inventaris vormt in een volgende fase de basis voor een proces van <b>visievorming</b> waarbij we onderzoeken op welke manier het netwerk naar de toekomst toe verder uitgebouwd en versterkt kan worden. Zo wordt o.a. duidelijk welke verbindingen belangrijk zijn, welke wegen toe zijn aan een herwaardering of herinrichting en welke de ontbrekende schakels zijn.&nbsp;</span><br></p></div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-3h",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "svpev6KB5H",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2080,7 +1867,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-2\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page1.html\" data-app-placeholder=\"Type Text\">BENIEUWD NAAR RESULTATEN &amp; VERVOLG?</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-2\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page1.html\" data-app-placeholder=\"Type Text\">RESULTATEN &amp; VERVOLG</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rQdVR2sNag",
           "_anchor": "content8-13",
           "_protectedParams": [],
